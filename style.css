@@ -1,0 +1,430 @@
+*{
+    margin:0px;
+     box-sizing:border-box ;
+
+}
+body{
+    width: 100%;
+    background-color: #ccc;
+
+
+}
+
+nav{
+    width: 100%;
+     height: 90px;
+     background-color: #fff;
+     position:relative;
+     align-items: center; align-content:center ; 
+     display: flex;
+     
+     padding: 0px 15px 0px 15px;
+     
+}
+.search{
+    display:flex;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+
+.search img {
+    width: 20px; height:20px;
+    position: relative;
+    margin:0px 20px 0px 20px; display: flex;
+}
+.example input{
+    border: none;
+background: #FFFFFF;
+width:280px;
+
+
+
+}
+.line{
+    margin-left: 40px;
+}
+
+
+.btn button{
+    width: 141px;height: 22px;
+    background: #5855D6;
+box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px; 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 7px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-left: 50px;
+    
+    color: #FFF;
+
+
+}
+#icon{
+     background-repeat: no-repeat; width: 30px;height: 30px;
+     
+
+}
+.icons .img1{
+    z-index:  1; 
+}
+.icons .img2{
+    z-index:  3; position: relative;
+    right: 32;
+    right: 29px;
+    align-content: center;
+    align-items: center;
+    bottom: 9px
+}
+.icons{
+    display: flex;
+    margin-left: 180px;
+
+}
+.icons>.profile>.more{
+    justify-content: space-evenly;
+}
+.icon{
+    margin:10px;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius:250px ;
+    position:relative;
+    margin:20px;
+
+}
+.more{
+
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.more img{
+    padding-top: 4px;
+    flex-direction: column;
+    
+}
+.btn1{
+    display:flex;
+    margin:20Px;
+}
+.btn1 button{
+    width: 72px;
+height: 30px;
+color: white;
+background: #673CDF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+}
+p{
+    font-size: 25px;
+    margin: 0px 10px
+}
+.btn1 #btn112{
+    Width:189px; 
+height:30px;
+
+
+}
+.dropdown{
+    background: #673CDF;
+border-radius: 5px 5px 0px 0px;
+width:100%;
+max-width: 97%;
+align-items: center;
+margin:auto;
+height:51px;
+display:flex;
+justify-content: space-between;
+align-content: center;
+}
+.dropdown .img1{
+    padding:10px;
+    margin:5px;
+}
+.dropdown .img1 img{
+    
+    text-align: center;
+    padding: 10px;
+
+}
+.dropdown .img2{
+    margin:5px;
+    padding:10px;
+}
+.dropdown .img2 img{
+    margin:5px;
+    padding:10px;
+}
+.content{
+    width:100%;
+    max-width: 97%;
+    height:692Px;
+background-color: #FFF;
+margin:auto;
+grid-template-columns: 50%;
+display:grid;
+grid-template-columns: [one] 55% [two] 45%;
+
+}
+.point{
+    display:flex;
+    
+    padding:20px;
+    background-color: #FFF;
+    margin:auto;
+    width:100%;
+
+
+
+}
+.point p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #65708D;
+}
+.asset{
+    text-align: right;
+    width:100%;
+    margin-left:430px;
+
+    
+
+}
+.topic{
+    margin-left: 100px;
+    
+    text-align: left;
+    width: 100%;
+}
+.para p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+
+align-items: center;
+letter-spacing: 0.05em;
+
+/* Text */
+color:#65708D
+
+
+}
+.para{
+    width: 300px;
+}
+#Time{
+    color:blue;
+}
+.student{
+    
+    justify-content: space-between;
+    align-content:center;
+    align-items: flex-start;
+}
+.stud1{
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    margin-left: 30px;
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+background: #FAFAFF;
+padding:10px;
+width:100%;
+
+max-width:900px;
+margin-bottom: 20px;
+
+}
+.stud2,.stud3,.stud4,.stud5{
+    align-items: center;
+    display: flex;
+    height: fit-content;
+    margin-left: 30px;border-radius: 10px;
+    background: #FAFAFF;
+    padding:10px;
+    width:100%;
+
+}
+
+.student img{
+    border: 1px solid #fff;
+
+}
+.student button{
+    width: 120px;
+height: 28px;
+
+background: #E7E7FF;
+border-radius: 11px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+
+/* Headline */
+
+color: #333269;
+border: none;
+margin-left: 60px;
+}
+.view,.response{
+    display: flex;
+    width: 547px;
+    height: 45px;
+    background: rgba(247, 247, 247, 0.5);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#viewassett, #feedbackrecived{
+     
+height: 24px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #1D2140;
+margin: 10px 15px;
+
+}
+
+
+    
+
+.feedback .view .image1{
+    width: 30px;
+height: 30px;
+position: relative;
+left: 28px;
+    top: 3px;
+}
+
+
+.feedback .view .image2{
+    width: 18px;
+height: 38px;
+position: relative;
+object-fit: contain;
+left:5px;
+
+}
+.feedback .response .image3{
+    width: 30px;
+height: 30px;
+position: relative;
+left: 28px;
+ top: 8px;
+}
+
+
+.feedback .response .image4{
+    width: 14px;
+height: 38px;
+position: relative;
+object-fit: contain;
+left:6px;
+top:3px;
+
+
+}
+.feedback{
+    width: 650px;
+height: 648px;
+
+background: #FAFAFF;
+border-radius: 5px;
+padding:20px;
+position: relative;
+top:10px;
+
+}
+.feedback .para1 p{
+   
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 26px;
+text-align: start;
+width:100%;
+/* or 217% */
+
+
+color: #000000;
+}
+.para1{ 
+   max-width: 500px;
+    height: 104px;
+    justify-content: center;
+    text-align: left;
+    width:100%;
+    justify-items: center;
+    margin:auto;
+
+
+}
+
+
+    
+    
+
+/*.bg{
+    border-radius: 28.5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 14%);
+    max-width: 56px;
+    height: 56px;
+    width: 100%;
+    position: relative;
+    left: -74px;
+    top: 2px;
+    overflow: hidden;
+    filter: drop-shadow(0px 14px 20px rgba(0, 0, 0, 0.1));
+
+    border-radius: 28.5px;
+    background: url('img/Rectangle 1314.png'), #FFFFFF;
+    background-size: cover;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 14%);
+    max-width: 56px;
+    height: 56px;
+    width: 100%;
+    position: relative;
+    
+    filter: drop-shadow(0px 14px 20px rgba(0, 0, 0, 0.1));
+}
+}*/
+
+
+
+
+
+
